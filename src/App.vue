@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <Header></Header>
-    <Nav></nav>
+    <vHeader></vHeader>
+    <vNav></vnav>
     <Introduce></Introduce>
     <Feature></Feature>
     <Team></Team>
@@ -9,14 +9,13 @@
     <Product></Product>
     <New></New>
     <Case></Case>
-    <Footer></Footer>
-    <router-view/>
+    <vFooter></vFooter>
   </div>
 </template>
 
 <script>
-import Header from '@/components/common/header'
-import Nav from '@/components/common/nav'
+import vHeader from '@/components/common/header'
+import vNav from '@/components/common/nav'
 import Introduce from '@/components/common/introduce'
 import Feature from '@/components/common/feature'
 import Team from '@/components/common/team'
@@ -24,12 +23,12 @@ import Cooperate from '@/components/common/cooperate'
 import Product from '@/components/common/product'
 import New from '@/components/common/new'
 import Case from '@/components/common/case'
-import Footer from '@/components/common/footer'
+import vFooter from '@/components/common/footer'
 export default {
   name: 'App',
   components:{
-    Header,
-    Nav,
+    vHeader,
+    vNav,
     Introduce,
     Feature,
     Team,
@@ -37,7 +36,7 @@ export default {
     Product,
     New,
     Case,
-    Footer
+    vFooter
   }
 }
 </script>

@@ -1,6 +1,6 @@
 # m52carlifeoffice
 
-> A Vue.js project
+> 卡莱官网移动端的网页
 
 ## Build Setup
 
@@ -17,5 +17,9 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 整体架构
+由于赶时间，大致是这样的
+* 页面内容的渲染采用Vue.js
+* ajax用vue-resource
+* 页面样式用css和css3以及element-ui
+* 轮播图暂时采用swiper.js
